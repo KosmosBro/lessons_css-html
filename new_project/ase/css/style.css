@@ -1,0 +1,65 @@
+body {
+    font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+}
+h3{
+    padding: 25px;
+    font: 15pt fantasy;
+}
+h2 {
+    font: 8pt "Arial Black", Helvetica, fantasy;
+    font-size: 18pt; /* Размер шрифта */
+    color: black; /* Цвет текста */
+    margin-top: 30px; /* Отступ сверху */
+    /*padding: 5px;*/
+    /*background: saddlebrown;*/
+}
+
+.kos {
+    font: 1.1em "Arial Black", Helvetica, fantasy;; /* Размер текста */
+    margin-right: -9px;
+    margin-left: -9px;
+    margin-top: -17px;
+    padding: 18px; /* Отступы вокруг текста */
+    background: #2F4F4F;; /* Цвет фона шапки */
+    color: #F5DEB3; /* Цвет текста */
+}
+.sidebar {
+    margin: 0 auto;
+    width: 110px; /* Ширина слоя */
+    padding: 0 10px; /* Отступы вокруг текста */
+    float: left; /* Обтекание по правому краю */
+}
+
+.footer {
+    margin-top: 110px;
+    color: #fff; /* Цвет текста */
+    padding: 5px; /* Отступы вокруг текста */
+    clear: left; /* Отменяем действие float */
+}
+.content {
+    margin-left: 130px; /* Отступ слева */
+    padding: 10px; /* Поля вокруг текста */
+
+    /*background: #fff; !* Цвет фона правой колонки *!*/
+}
+li{
+    font: 25pt cursive;
+    margin: 0 auto;
+    color: black;
+    padding: 18px;
+    font-size: 18pt;
+}
+
+.li_2{
+    color: white;
+}
+.footer_2 {
+    font-size: 15pt;
+    position: absolute;
+    bottom: 0;
+    right: 110px;
+    text-align:right;
+    color: #fff; /* Цвет текста */
+    padding: 5px; /* Отступы вокруг текста */
+    clear: left; /* Отменяем действие float */
+}
