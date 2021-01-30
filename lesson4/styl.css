@@ -1,6 +1,11 @@
 body{
     background-image: url("fon.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 2000px;
+    overflow: hidden;
+    background-position: center;
 }
 
 header{
@@ -45,7 +50,7 @@ h2{
             }
 
             .music{
-                padding-left: 1100px;
+                /*padding-left: 110px;*/
                 margin-top: 110px;
             }
 
